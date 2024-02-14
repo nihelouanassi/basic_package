@@ -1,2 +1,4 @@
 const show = require('basicnihelouanassi');
-console.log(show());
+
+console.log(show.sayHello());
+console.log(show.tania());

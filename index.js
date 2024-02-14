@@ -2,4 +2,8 @@ function sayHello(){
    return "hello world";
 }
 
-module.exports = sayHello;
+function tania(){
+   return "Hey ! It's the basic Tania ;)";
+}
+
+module.exports = { sayHello, tania };
